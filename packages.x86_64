@@ -123,11 +123,9 @@ eos-sddm-theme
 lximage-qt
 lxqt-about
 lxqt-admin
-lxqt-appswitcher
 lxqt-archiver
 lxqt-config
 lxqt-globalkeys
-lxqt-less-theme-git
 lxqt-notificationd
 lxqt-openssh-askpass
 lxqt-panel
@@ -145,7 +143,7 @@ pcmanfm-qt
 qterminal
 screengrab
 featherpad
-feathernote
+feathernotes
 falkon
 speedcrunch
 qpdfview
