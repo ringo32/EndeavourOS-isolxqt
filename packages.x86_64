@@ -67,7 +67,7 @@ gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
-gvfs-smb
+#gvfs-smb
 jfsutils
 lvm2
 mtools
@@ -147,7 +147,8 @@ feathernotes
 falkon
 speedcrunch
 qpdfview
-
+pavucontrol-qt
+xscreensaver
 
 #fonts
 adobe-source-han-sans-cn-fonts
@@ -172,7 +173,7 @@ gst-plugins-bad
 gst-plugins-ugly
 libdvdcss
 paprefs
-pavucontrol
+#pavucontrol
 pipewire-alsa
 pipewire-jack
 pipewire-media-session
