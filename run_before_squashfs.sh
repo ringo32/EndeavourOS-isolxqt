@@ -49,8 +49,6 @@ rm "/home/liveuser/"{".bashrc",".bash_profile","xed.dconf","set_once_xfce4.sh"}
 cp ".bashrc" ".bash_profile" "LICENSE" "user_pkglist.txt" "user_commands.bash" ".xinitrc" ".xprofile" ".Xauthority" ".xsession" "xed.dconf" "/home/liveuser/"
 chown -R liveuser:liveuser "/home/liveuser"
 chmod +x "/home/liveuser/"{".xprofile",".xinitrc",".xsession","user_commands.bash"}
-sudo -H -u liveuser bash -c 'dbus-launch dconf load / < "/home/liveuser/xed.dconf"'
-rm "/home/liveuser/xed.dconf"
 cd ..
 rm -R "liveuser-desktop-settings"
 
